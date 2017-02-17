@@ -1,31 +1,5 @@
-/*
-package com.company;
-
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-
-        String password = "A1234";
-
-        Scanner scan = new Scanner (System.in);
-        System.out.println("Type your password");
-        String password_new = scan.next();
-
-        scan.close();
-        if (password.equals(password_new))
-            System.out.println("Password is valid");
-        else System.out.println("Invaid Password");
 
 
-        }
-
-
-    }
-
-
-*/
 package com.company;
 
 import java.util.Arrays;
@@ -137,61 +111,61 @@ else System.out.println("Invaid Password");
 
 /*package com.company;
 
-import java.util.Arrays;
-import java.util.Scanner;
+        import java.util.Arrays;
+        import java.util.Scanner;
 
 public class Main {
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
 
-Scanner count = new Scanner(System.in);
+        Scanner count = new Scanner(System.in);
 
-System.out.println("Scolko znacheniy");
-int dig = count.nextInt();
-System.out.println("VEnter data");
+        System.out.println("Scolko znacheniy");
+        int dig = count.nextInt();
+        System.out.println("VEnter data");
 
-String arr[] = new String[dig];
-for (int i = 0; i < arr.length; i++) {
-arr[i] = count.next();
+        String arr[] = new String[dig];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = count.next();
 
-}
+        }
 
-System.out.println("Entered data " + Arrays.toString(arr));
+        System.out.println("Entered data " + Arrays.toString(arr));
 
-count.close();
+        count.close();
 
-for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
 
-if (arr[i].length() == 3) {
-if (arr[i].charAt(1) != arr[i].charAt(2)) {
-System.out.println("Original triple digits " + arr[i]);
-}
-}
+            if (arr[i].length() == 3) {
+                if (arr[i].charAt(1) != arr[i].charAt(2)) {
+                    System.out.println("Original triple digits " + arr[i]);
+                }
+            }
 
-}
-for (int i = 0; i < arr.length; i++) {
+        }
+        for (int i = 0; i < arr.length; i++) {
 
-if (arr[i].length() % 2 == 0) {
-int val1 = 0;
-int val2 = 0;
+            if (arr[i].length() % 2 == 0) {
+                int val1 = 0;
+                int val2 = 0;
 
-for (int j = 0; j < arr[i].length(); j++) {
+                for (int j = 0; j < arr[i].length(); j++) {
 
 
-if (j < arr[i].length() / 2) {
-val1 += (int) arr[i].charAt(j);
-} else {
+                    if (j < arr[i].length() / 2) {
+                        val1 += (int) arr[i].charAt(j);
+                    } else {
 
-val2 += (int) arr[i].charAt(j);
-}
-}
-if (val1 == val2) {
-System.out.println("Lcuck Digits = " + arr[i]);
-}
-}
+                        val2 += (int) arr[i].charAt(j);
+                    }
+                }
+                if (val1 == val2) {
+                    System.out.println("Lcuck Digits = " + arr[i]);
+                }
+            }
 
-}
-}
+        }
+    }
 
 }*/
